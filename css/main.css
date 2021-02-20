@@ -1,0 +1,42 @@
+body{
+  background-color: #1D1D1D;
+  color: white;
+  
+}
+
+h2{
+  display: block;
+  margin-left: 60px;
+  
+}
+p{
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+
+
+.slick_container{
+  width: 1000px;
+  margin: 10px 0 10px 20px;
+  }
+
+/*左右の矢印の位置*/
+.slick-next {
+    right: -20px;
+    z-index: 99;
+}
+.slick-prev {
+     left: 15px;
+    z-index: 100;
+}
+/* 下のドットの色*/
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+    color: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
